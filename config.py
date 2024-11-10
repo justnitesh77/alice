@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22247860
+API_HASH = "af163e08dee1e5b2f729cb2b441b28d9"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7572937148:AAF9ZBXUhF1lsvi_uJUD9FXRDSkzPLNHvBw"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://justnitesh77:justnitesh77@cluster0.v238g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002495285644
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 6589610586
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFTebQAQd9qaVYoO_LxjUyJqoaVbR8dUX4u_Ne9ImPcj7cE7x-u6u4J4n84VmEGdX9gJidzz5p3oHSVDDvjcwXW9LqOYd0NpW4gPQqo5nOKKpA5hJH66RwbdfsZC6LMy23jVYWty6FRzcL2eJVwhfwWNS1WWISTm2_fs0vfeLc_AT4Fhhiaj59CX1nkF0Usnp-zQY6Ad2J9trk9_KpEUQJPPTBz-A2IH735BZoMzoFZnWpnZE1muU7_FHlv5Y6b70PdZ0CD_vuXcZV_aqYPb0bnGD_BulP0ENLKkvwBvmj2_v6kULJoPmInvmdL3Xlxf0vTAwyeQkfNCTzfXRp-nyePydNd8QAAAAGIxXpaAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/483cdc0f6e416e1f4feb7-6cf527b7c0e9b1845d.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/483cdc0f6e416e1f4feb7-6cf527b7c0e9b1845d.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
